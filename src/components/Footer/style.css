@@ -1,0 +1,56 @@
+.footerCamp {
+  background-color: #646464;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.textHeading {
+  color: #fff;
+}
+.bg-dark {
+  background-color: #646464 !important;
+}
+.row {
+  background-color: #646464;
+  margin: 0;
+  padding: 5vw;
+  font-size: 14px;
+
+}
+.paragraph2{
+  color: #fff;
+  font-size: 12px;
+}
+
+.list-unstyled {
+  position: relative;
+}
+.watermarked {
+  position: relative;
+}
+
+
+.watermark{
+  height: 10em;
+  transform: translateX(-10%);
+
+}
+.fa {
+  color: #ff5900;
+
+}
+.textHeading {
+  padding-bottom: 50px;
+}
+.textJoin{
+  color: #fff;
+}
+.privacy{
+  color: #fff;
+  font-size: 12px;
+}
+
+.form-control {
+  border-radius: .375rem !important;
+  margin-left: 0 !important;
+}

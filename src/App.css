@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+*,
+root {
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Open Sans', sans-serif;
+
+    /******* Variables *******/
+    --color-primary: #901A1E;
+    --color-bg: #EFEFEF;
+    --color-black: #262526;
+    --color-gray-light: #CCCBCC;
+    --color-gray-dark: #747681;
+    --color-white: #ffffff;
+    --color-gray-inputBorder: #ced4da;
+
+    --page-margin: 5vw;
+    /* the last one's maybe redundant but you never know */
+
+}
+
+body {
+    background-color: var(--color-bg)
+}
+
+h1 {
+    font-size: 96px;
+    /* font-size: 6rem*/
+    font-weight: 800;
+    line-height: 120%;
+
+}
+
+h2 {
+    font-size: 48px;
+    /* font-size: 3rem*/
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-size: 37px;
+    /* font-size: 2.3125rem */
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 2px;
+}
+
+h4 {
+    font-size: 28px;
+    /* font-size: 1.75rem*/
+    font-weight: 600;
+    line-height: 150%;
+
+}
+
+h5 {
+    font-size: 21px;
+    /* font-size: 1.3125rem*/
+    font-weight: 600;
+    line-height: 150%;
+
+}
+
+p {
+    font-size: 18px;
+    /* font-size: 1.125rem*/
+    font-weight: 400;
+    line-height: 175%;
+
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.extrabold {
+    font-weight: 800;
+}
+
+/* important (cannot override it anywhere else) */
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-black);
+}
+
+.page-heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 5.6rem 0 5.6rem calc(var(--page-margin) * 3) ;
+}
+
+.page-cont {
+    margin: 0 5vw;
+    min-height: 100vh;
+}
+
+.img_cont {
+    overflow: hidden;
+}
+
+img {
+    transition: all 0.25s ease-out;
+}
